@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bg {
+    background: 
+        linear-gradient(
+        transparent,
+        transparent,
+        rgba(76, 75, 77, 0.85)
+        ),
+        url(IMG_89355.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.83;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#links {
+    list-style-type: none;
+}
+#navbar {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+#links li {
+    display: inline;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#links li a {
+    text-decoration: none;
+    color: #aebfc5;
+}
+#links li a:hover {
+    text-decoration: underline;
+}
+#links li a.selected{
+    color: #a29b91;
+    font-weight: bold;
+}
+#wanna_know_more {
+    position: absolute;
+    left: 130px;
+    top: 90px;
+    color: #807e77;
+    font-size: 45px;
+}
+#email a {
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-size: 25px;
+    color: #f0fbfd;
+    font-weight: bold;
+    text-decoration: none;
+}
+#emailscribble {
+    position: absolute;
+    width: 400px;
+    top: 200px;
+    left: 130px;
+}

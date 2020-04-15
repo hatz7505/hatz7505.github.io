@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bg {
+    background: 
+        linear-gradient(
+        transparent,
+        transparent,
+        rgba(55, 75, 81, 0.75)
+        ),
+        url(IMG_9123.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.88;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#links {
+    list-style-type: none;
+}
+#navbar {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+#links li {
+    display: inline;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#links li a {
+    text-decoration: none;
+    color: #aebfc5;
+}
+#links li a:hover {
+    text-decoration: underline;
+}
+#hithere {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    font-size: 35px;
+    color: #2f1b14;
+}
+#aboutme {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    margin-left: 880px;
+    font-size: 18px;
+    text-align: justify;
+    color: #2f1b14;
+
+}
+#harryblink {
+    text-decoration: none;
+    color: #a04f4d;
+}
+#links li a.selected{
+    color: #9a5049;
+    font-weight: bold;
+}
+#scribble {
+    position: absolute;
+    bottom: 120px;
+    right: 10px;
+    width: 400px;
+}
+#resume a {
+    position: absolute;
+    top: 75px;
+    left: 45px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #2f1b14;
+    font-weight: normal;
+    font-weight: bold;
+}
